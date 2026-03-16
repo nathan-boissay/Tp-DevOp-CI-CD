@@ -1,0 +1,71 @@
+TP DevOps : Audit, Automatisation et Mise en place d’un
+pipeline CI/CD
+Master 1 DFS/DE
+Vous venez d’être recrutés comme ingénieurs DevOps dans une startup. L’entreprise possède
+une plateforme web moderne composée :
+— d’un frontend web
+— d’un backend serveur
+— d’une base de données
+Mais bien souvent, les utilisateurs se plaignent! Trop de bugs à l’utilisation. Des fonctionnali-
+tés qui fonctionnaient bien à un certain moment ne marchent plus après la résolution de certains
+bugs. Des erreurs critiques rapidement identifiées prennent du temps à être corrigées. De plus,
+le serveur physique que vous avez dans vos locaux peine à répondre efficacement aux demandes
+malgré le coût énorme de son entretien. Vous demandez donc à un de vos collègues comment
+se passe actuellement le développement et le déploiement de l’application. Voici un résumé que
+celui-ci vous a transmis :
+— Les déploiements se font manuellement.
+— Les développeurs poussent directement en production.
+— Les serveurs sont configurés manuellement sans documentation.
+— Les tests sont bien réalisés par un prestataire externe qui recrute les testeurs qui passent
+les tests sur leur propre machine.
+La direction vous demande deréaliser un audit complet puis de proposer une stratégie DevOps
+pour stabiliser la plateforme.
+Travail demandé
+1. Audit du système existant
+Dans un premier temps, vous devez analyser la situation et identifier les problèmes.
+Votre audit devra notamment analyser le processus dans l’entreprise pour identifier les pro-
+blèmes, les risques associés et leur impact sur l’entreprise.
+2. Proposition d’architecture DevOps
+Suite à votre audit, vous devez proposer une nouvelle organisation DevOps.
+Vous devrez notamment définir :
+— une stratégie de gestion de code (Git workflow)
+— une stratégie de gestion des branches
+— une stratégie de tests automatisés
+— une architecture d’infrastructure
+— une solution de conteneurisation
+3. Plan d’automatisation
+Vous devrez ensuite proposer un plan d’automatisation pour :
+— la construction du projet
+1
+— l’exécution des tests
+— la construction des images
+— le déploiement
+Vous pourrez utiliser des outils tels que :
+— Docker
+— GitHub Actions
+— Docker Compose
+4. Mise en place d’un pipeline CI/CD
+Chaque groupe devra implémenter un pipeline CI/CD permettant :
+1. le build du projet
+2. l’exécution des tests
+3. la création des artefacts
+4. le déploiement automatique
+Le pipeline devra permettre de déployer :
+— un serveur (backend)
+— un client (frontend)
+Livrables
+Chaque groupe devra rendre un document PDF (2 à 3 pages) contenant :
+— l’audit du système
+— les solutions proposées
+— la description du pipeline CI/CD
+— un schéma d’architecture
+— un dépôt Git contenant le projet
+— le pipeline CI/CD
+— les scripts d’automatisation
+Présentation orale
+À la fin, chaque groupe passera un court entretien (5 à 7 minutes) avec l’enseignant pour :
+— présenter leur audit
+— expliquer les solutions proposées
+— justifier leurs choix technologiques
+— répondre à 2 ou 3 questions posées par l’enseignant.
+2
